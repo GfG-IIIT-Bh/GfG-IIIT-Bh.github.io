@@ -905,6 +905,7 @@ p {
         .event-tab .tab-content .event-content .single-event .event-content .event-meta li {
           display: inline-block;
           padding-top: 10px;
+	  padding-bottom: 10px;
           font-size: 16px;
           color: #777777;
           margin-right: 20px; }
