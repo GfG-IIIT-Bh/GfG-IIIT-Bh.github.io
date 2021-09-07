@@ -925,6 +925,8 @@ p {
       color: #fff; }
     .event-tab .tab-content .event-content .single-event:hover .event-content .event-meta li {
       color: #fff; }
+    .event-btn {
+      padding-top: 10px; }
 
 /*===========================
       6.FEATURES css 
