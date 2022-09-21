@@ -292,7 +292,7 @@ body {
     align-items: center;
     position: relative;
     flex-direction: column;
-    background-image: url(./assets/section-bg.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/GfG-IIIT-Bh/GfG-IIIT-Bh.github.io/assets/section-bg.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -559,7 +559,7 @@ body {
 }
 
 .socials-body {
-    background-image: url(./assets/section-bg.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/GfG-IIIT-Bh/GfG-IIIT-Bh.github.io/assets/section-bg.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -670,7 +670,7 @@ body {
 /* Footer start  */
 
 .footer-body {
-    background-image: url(./assets/section-bg-flat.webp);
+    background-image: url(https://cdn.jsdelivr.net/gh/GfG-IIIT-Bh/GfG-IIIT-Bh.github.io/assets/section-bg-flat.webp);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -688,7 +688,7 @@ body {
 .footer-body div:first-of-type {
     opacity: 0.5;
     font-weight: 400;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     font-size: 1.2rem;
 }
 
@@ -698,6 +698,7 @@ body {
     }
 
     .footer-body div:first-of-type {
+        margin-top: 2.3rem;
         font-size: 1rem;
     }
 }

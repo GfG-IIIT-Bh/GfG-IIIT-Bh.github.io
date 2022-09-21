@@ -96,10 +96,16 @@ const pageLoaded = () => {
     loader.style.opacity = '0';
     setTimeout(() => loader.style.display = 'none', 300);
 
-    // Lazy load images
+    // Lazy load images with cdn
     const imgs = document.querySelectorAll('[data-src]');
     imgs.forEach(img => {
-        img.setAttribute('src', img.getAttribute('data-src'));
+        img.setAttribute('src', 'https://cdn.jsdelivr.net/gh/GfG-IIIT-Bh/GfG-IIIT-Bh.github.io' + img.getAttribute('data-src').substring(1));
+    });
+
+    // Lazy load images without cdn
+    const imgs2 = document.querySelectorAll('[data-src-noncdn]');
+    imgs2.forEach(img => {
+        img.setAttribute('src', img.getAttribute('data-src-noncdn'));
     });
 
     // Lazy load contact form iframe
